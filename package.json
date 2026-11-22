@@ -1,7 +1,7 @@
 {
   "name": "dsh-client-ui-skin-runlang",
   "description": "Runlang: a cyan and cool-white DSH skin with a muted courtyard video, smoked-glass panels, and a corner music player with mute and volume, based on Tianlight 2.3.0.",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -61,16 +61,17 @@
   },
   "files": [
     "lib",
+    "docs",
     "assets",
     "vendor",
     "presets",
     "cordis.patch.yml",
-    "docs/THIRD-PARTY.md",
     "locale/*.json",
     "icon.svg",
     "skin.json",
     "LICENSE",
     "README.md",
-    "!assets/qinglan-loop.mp4"
+    "!assets/qinglan-loop.mp4",
+    "!docs/demo.gif"
   ]
 }

@@ -1,6 +1,7 @@
 {
   "meta": {
     "title": "Runlang",
-    "description": "以冷白文字、青蓝点缀和深色烟熏玻璃呈现古风庭院。内置 3.3 秒静音循环壁纸；按 Alt+W 打开壁纸面板，可更换或暂停。使用 Runlang 前请停用天光和其他全局皮肤，再刷新界面。 右上角的音乐播放器可播放本机音频：点它展开后，静音按钮和音量滑块都在播放器上。 素材与设置在 DSH 配置目录的 <profile>/runlang 下：uploads 存壁纸和音乐，music-roots.json 存音乐文件夹。"
+    "description": "以冷白文字、青蓝点缀和深色烟熏玻璃呈现古风庭院。内置 3.3 秒静音循环壁纸；按 Alt+W 打开壁纸面板，可更换或暂停。使用 Runlang 前请停用天光和其他全局皮肤，再刷新界面。 右上角的音乐播放器可播放本机音频：点它展开后，静音按钮和音量滑块都在播放器上。 素材与设置在 DSH 配置目录的 <profile>/runlang 下：uploads 存壁纸和音乐，music-roots.json 存音乐文件夹。",
+    "detail": "docs/DETAIL.zh.md"
   }
 }

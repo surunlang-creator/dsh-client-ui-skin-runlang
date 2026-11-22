@@ -1,6 +1,7 @@
 {
   "meta": {
     "title": "Runlang",
-    "description": "A courtyard skin in cool white and cyan with smoked-glass panels and a muted 3.3-second wallpaper loop. Press Alt+W to open the wallpaper panel and change or pause playback. Turn off Tianlight and other full-window skins before using Runlang, then refresh. The corner music player plays local audio; expand it for the mute button and the volume slider. Assets and settings live in <profile>/runlang: uploads holds wallpapers and music, music-roots.json holds the music folders."
+    "description": "A courtyard skin in cool white and cyan with smoked-glass panels and a muted 3.3-second wallpaper loop. Press Alt+W to open the wallpaper panel and change or pause playback. Turn off Tianlight and other full-window skins before using Runlang, then refresh. The corner music player plays local audio; expand it for the mute button and the volume slider. Assets and settings live in <profile>/runlang: uploads holds wallpapers and music, music-roots.json holds the music folders.",
+    "detail": "docs/DETAIL.md"
   }
 }
