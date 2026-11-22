@@ -1,10 +1,10 @@
 {
-  "format": "qinglan-default-appearance",
+  "format": "runlang-default-appearance",
   "version": 1,
-  "author": "QINGLAN",
+  "author": "RUNLANG",
   "description": "The author's default look for Runlang: the bundled 3.3s seamless courtyard loop framed on the face centre, a deeper cinematic vignette, smoked glass at the soft tier, and the dark appearance the palette is designed for. Appearance keys only — no chat history, permissions, paths or uploaded media. Applied only on a fresh install with no saved settings.",
   "appearance": {
-    "qinglan.wallpaper": "{\"kind\":\"video\",\"url\":\"/skin-qinglan/qinglan-loop.mp4\"}",
+    "qinglan.wallpaper": "{\"kind\":\"video\",\"url\":\"/skin-qinglan/runlang-loop.mp4\"}",
     "qinglan.zones": "{\"separate\":false,\"main\":{\"fit\":\"cover\",\"fx\":50,\"fy\":44,\"dim\":0,\"blur\":0,\"ratio\":\"auto\",\"zoom\":100,\"cx\":50,\"cy\":50},\"rail\":{\"fit\":\"cover\",\"fx\":50,\"fy\":50,\"dim\":16,\"blur\":0,\"url\":\"\",\"kind\":\"video\"}}",
     "qinglan.layers": "{\"version\":2,\"slots\":[{\"kind\":\"preset\",\"preset\":\"vignette\",\"url\":\"\",\"fit\":\"cover\",\"opacity\":0.16,\"blend\":\"normal\"},{\"kind\":\"none\",\"preset\":\"none\",\"url\":\"\",\"fit\":\"cover\",\"opacity\":0,\"blend\":\"normal\"}]}",
     "qinglan.glass": "1.05",

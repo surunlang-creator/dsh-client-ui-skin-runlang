@@ -15,7 +15,7 @@ Runlang 是天光 2.3.0 的独立本地分支。使用你提供的庭院短片�
 
 - **壁纸（图片 / 视频）**：选一个文件，上传后**立即应用为全屏壁纸**，同时加入壁纸库（「打开壁纸面板」可继续做标签/轮播）。
 - **音乐（可多选）**：上传后直接进曲库，并开始播放第一首；「打开曲库」跳到壁纸面板的音乐分区。
-- 文件仍存进 DSH 配置目录（`<profile>/qinglan/uploads`），和面板上传是同一份素材；上限沿用宿主设置（默认 512MB）。
+- 文件仍存进 DSH 配置目录（`<profile>/runlang/uploads`），和面板上传是同一份素材；上限沿用宿主设置（默认 512MB）。
 
 ## 音乐播放器（v1.1.0）
 
@@ -24,7 +24,7 @@ Runlang 是天光 2.3.0 的独立本地分支。使用你提供的庭院短片�
 
 - **打开曲库**：点播放器卡片右上角的「**曲库**」按钮（会自动打开壁纸面板并展开「音乐」分区，等同 ⌥W / Alt+W → 「音乐」）。
 - **添加音乐**：在「音乐」分区点「添加音乐」，可多选 mp3/m4a/aac/flac/wav/ogg/opus/aiff。
-  文件存进 DSH 配置目录（`<profile>/qinglan/uploads`），刷新或重启都不会丢。
+  文件存进 DSH 配置目录（`<profile>/runlang/uploads`），刷新或重启都不会丢。
 - **扫描 ~/Music**：默认读取 `~/Music` 第一层的音频文件；也可以在同一个分区里添加其他绝对路径（最多 12 个）。
 - **播放模式（v1.2.0）**：播放器控制条上多了一个模式按钮，点一下在 **顺序播放 → 列表循环 → 随机播放** 之间切换（悬停有说明）；
   壁纸面板的「音乐」分区里也有三个文字按钮。默认「列表循环」；顺序播放到最后一首会停下，随机播放不会立刻重复当前这首。
@@ -39,18 +39,19 @@ Runlang 是天光 2.3.0 的独立本地分支。使用你提供的庭院短片�
 
 ## 数据与文件位置
 
-所有素材和设置都在 DSH 配置目录的 `qinglan/` 下（桌面版默认 profile 叫 `desktop`）：
+所有素材和设置都在 DSH 配置目录的 `runlang/` 下（桌面版默认 profile 叫 `desktop`）：
 
 | 路径 | 内容 |
 |---|---|
-| `~/.dsh/profiles/desktop/qinglan/uploads/` | **壁纸和音乐素材**都在这里（同一份素材）。面板上传、角色中枢上传都落到这个目录，刷新/重启不丢。 |
-| `~/.dsh/profiles/desktop/qinglan/music-roots.json` | **音乐文件夹配置**（在壁纸面板「音乐」分区添加过文件夹才生成；删掉它即回到默认 `~/Music`）。 |
-| `~/.dsh/profiles/desktop/qinglan/state/settings.json` | 皮肤设置（壁纸选择、玻璃档位、音量/静音、模块开关等），宿主同步的那一份。 |
+| `~/.dsh/profiles/desktop/runlang/uploads/` | **壁纸和音乐素材**都在这里（同一份素材）。面板上传、角色中枢上传都落到这个目录，刷新/重启不丢。 |
+| `~/.dsh/profiles/desktop/runlang/music-roots.json` | **音乐文件夹配置**（在壁纸面板「音乐」分区添加过文件夹才生成；删掉它即回到默认 `~/Music`）。 |
+| `~/.dsh/profiles/desktop/runlang/state/settings.json` | 皮肤设置（壁纸选择、玻璃档位、音量/静音、模块开关等），宿主同步的那一份。 |
 
 补充：
 
-- 换用别的 profile 时，把 `desktop` 换成对应目录名；界面诊断里显示为 `$DSH_HOME/profiles/desktop/qinglan`（`/skin-qinglan/_engines` 的 `data.dir`）。
-- 停用或卸载Runlang**不会删除**这些文件；想彻底清空就手动删除 `qinglan/` 目录。
+- 换用别的 profile 时，把 `desktop` 换成对应目录名；界面诊断里显示为 `$DSH_HOME/profiles/desktop/runlang`（`/skin-qinglan/_engines` 的 `data.dir`）。
+- 从 1.3.x 升级时，旧的 `qinglan/` 目录会**一次性复制**到 `runlang/`（旧目录保留，回退仍可用）。
+- 停用或卸载 Runlang**不会删除**这些文件；想彻底清空就手动删除 `runlang/` 目录。
 - `~/Music` 只是默认扫描位置，插件不会修改或复制它。
 
 ## 素材与许可
@@ -60,5 +61,5 @@ Runlang 是天光 2.3.0 的独立本地分支。使用你提供的庭院短片�
 ## License
 
 - **Code**: MIT (see [LICENSE](LICENSE)); it is a local fork of the [Tianlight](https://github.com/MilkySnowWay123/dsh-client-ui-skin-tianlight) project, whose copyright notice is kept.
-- **Bundled assets**: `assets/qinglan-loop.mp4` (the author's courtyard clip, cut to a 3.3 s muted loop) and `assets/cat.png` (the pet artwork) are the author's own assets and are published with this repository with permission. They are **not** covered by the MIT license; ask the author before redistributing them commercially.
+- **Bundled assets**: `assets/runlang-loop.mp4` (the author's courtyard clip, cut to a 3.3 s muted loop) and `assets/cat.png` (the pet artwork) are the author's own assets and are published with this repository with permission. They are **not** covered by the MIT license; ask the author before redistributing them commercially.
 - **Third-party components** are listed in [docs/THIRD-PARTY.md](docs/THIRD-PARTY.md).

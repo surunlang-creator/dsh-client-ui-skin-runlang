@@ -1,4 +1,4 @@
-# qinglan skin bundle patch: inserts its public dsh.client entry into the web plugin roster.
+# Runlang skin bundle patch: inserts its public dsh.client entry into the web plugin roster.
 - insert:
     - id: ui-skin-runlang
       name: 'dsh-client-ui-skin-runlang'

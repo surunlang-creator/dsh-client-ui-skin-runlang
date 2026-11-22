@@ -151,7 +151,7 @@ Wallpaper Engine 场景通道使用仓库内 `vendor/webwallgl/` 的 WebWallGL 3
 ## 5. 默认演示素材
 
 Runlang基于 [天光 2.3.0](https://github.com/MilkySnowWay123/dsh-client-ui-skin-tianlight)，保留原作者版权和 MIT 许可声明。
-`assets/qinglan-loop.mp4` 源于用户提供的「浮生梦影 AI」短片，仅用于本地壁纸；`assets/cat.png` 是随天光安装的桌宠图。
+`assets/runlang-loop.mp4` 源于用户提供的「浮生梦影 AI」短片，仅用于本地壁纸；`assets/cat.png` 是随天光安装的桌宠图。
 这两项素材**不在 MIT 代码许可范围内**，版权归各自权利方，不要将此本地包公开发布。
 
 ---
