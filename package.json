@@ -28,9 +28,9 @@
   "author": "surunlang-creator",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/surunlang-creator/dsh-client-ui-skin-qinglan.git"
+    "url": "git+https://github.com/surunlang-creator/dsh-client-ui-skin-runlang.git"
   },
-  "homepage": "https://github.com/surunlang-creator/dsh-client-ui-skin-qinglan#readme",
+  "homepage": "https://github.com/surunlang-creator/dsh-client-ui-skin-runlang#readme",
   "keywords": [
     "dsh",
     "deepseek-harness",
