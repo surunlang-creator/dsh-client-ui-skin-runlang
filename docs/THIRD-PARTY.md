@@ -1,6 +1,6 @@
 # 第三方组件与许可
 
-青岚皮肤本体是 MIT（见根目录 `LICENSE`）。本文件列出随仓库分发（或作为实现依据）的第三方组件、
+Runlang皮肤本体是 MIT（见根目录 `LICENSE`）。本文件列出随仓库分发（或作为实现依据）的第三方组件、
 版本、许可与归属；分发包会带上 `lib/we-wallpaper/`、`vendor/we-wallpaper/`、
 `vendor/webwallgl/` 及各自的许可文件。
 
@@ -150,7 +150,7 @@ Wallpaper Engine 场景通道使用仓库内 `vendor/webwallgl/` 的 WebWallGL 3
 
 ## 5. 默认演示素材
 
-青岚基于 [天光 2.3.0](https://github.com/MilkySnowWay123/dsh-client-ui-skin-tianlight)，保留原作者版权和 MIT 许可声明。
+Runlang基于 [天光 2.3.0](https://github.com/MilkySnowWay123/dsh-client-ui-skin-tianlight)，保留原作者版权和 MIT 许可声明。
 `assets/qinglan-loop.mp4` 源于用户提供的「浮生梦影 AI」短片，仅用于本地壁纸；`assets/cat.png` 是随天光安装的桌宠图。
 这两项素材**不在 MIT 代码许可范围内**，版权归各自权利方，不要将此本地包公开发布。
 
