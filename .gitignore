@@ -1,0 +1,9 @@
+# local runtime state that must never be published
+.DS_Store
+node_modules/
+*.log
+state/
+assets/uploads/
+assets/derived/
+we-roots.json
+music-roots.json

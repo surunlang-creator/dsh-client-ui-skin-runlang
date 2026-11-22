@@ -1,0 +1,75 @@
+{
+  "name": "dsh-client-ui-skin-qinglan",
+  "description": "Qinglan: a cyan and cool-white DSH skin with a muted courtyard video, smoked-glass panels, and a corner music player with mute and volume, based on Tianlight 2.3.0.",
+  "version": "1.2.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-api-session-controller"
+      ],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "author": "surunlang-creator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surunlang-creator/dsh-client-ui-skin-qinglan.git"
+  },
+  "homepage": "https://github.com/surunlang-creator/dsh-client-ui-skin-qinglan#readme",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "skin",
+    "theme",
+    "wallpaper",
+    "glass",
+    "guofeng",
+    "cyan",
+    "qinglan",
+    "music"
+  ],
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-api-remotes": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0",
+    "@deepseek-ai/dsh-api-session-controller": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-api-remotes": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-api-session-controller": {
+      "optional": true
+    }
+  },
+  "files": [
+    "lib",
+    "vendor",
+    "assets",
+    "presets",
+    "cordis.patch.yml",
+    "docs/THIRD-PARTY.md",
+    "locale/*.json",
+    "icon.svg",
+    "skin.json",
+    "LICENSE",
+    "README.md"
+  ]
+}
