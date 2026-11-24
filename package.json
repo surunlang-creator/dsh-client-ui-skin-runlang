@@ -1,7 +1,7 @@
 {
   "name": "dsh-client-ui-skin-runlang",
-  "description": "Runlang: a cyan and cool-white DSH skin with a muted courtyard video, smoked-glass panels, and a corner music player with mute and volume, based on Tianlight 2.3.0.",
-  "version": "1.4.9",
+  "description": "Runlang: a courtyard-video skin for the DSH Web UI with smoked-glass panels, a wallpaper panel, a corner music player with repeat/shuffle and drag-to-seek, a background-video sound control, and a mint cat companion.",
+  "version": "1.4.10",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -33,15 +33,14 @@
   "homepage": "https://github.com/surunlang-creator/dsh-client-ui-skin-runlang#readme",
   "keywords": [
     "dsh",
+    "dsh-plugin",
+    "dsh-skin",
     "deepseek-harness",
-    "skin",
     "theme",
-    "wallpaper",
-    "glass",
-    "guofeng",
-    "cyan",
+    "skin",
     "runlang",
-    "music"
+    "wallpaper",
+    "music-player"
   ],
   "engines": {
     "node": ">=18",
