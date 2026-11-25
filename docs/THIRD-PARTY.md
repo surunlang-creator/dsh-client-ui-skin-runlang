@@ -172,3 +172,9 @@ Nwflower/dsh-claude-style, Microqian2th/dsh-codex-effort-slider,
 mobius/dsh-performance-slider, LLYSH-HANNARI/antigravity-Codex-Claude-effort-slider
 (MIT), claudenoshujin/claude-web, ATtacK030130/antigrative-dashboard (MIT),
 yiheng8023/antigravity-chinese (MIT).
+
+## 白璃桌宠图集
+
+`assets/baili-pet.webp` 来自 Codex 桌宠资源包 `pets/baili`（宠物 id `baili`，spriteVersionNumber 2），
+作者随公开版提供，按该项目的 ASSET-NOTICE.md：图集**不是** MIT 许可素材，随本仓库分发前请确认授权范围。
+本皮肤只做播放：不做二次修改，也不把它重新声明为 MIT。
