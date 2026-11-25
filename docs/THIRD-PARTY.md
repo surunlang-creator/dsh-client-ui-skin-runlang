@@ -157,3 +157,18 @@ Runlang基于 [天光 2.3.0](https://github.com/MilkySnowWay123/dsh-client-ui-sk
 ---
 
 *本文件随 v0.6.0 新增；若后续再内嵌第三方代码，请在同一 PR 里补行并附许可全文。*
+
+## dsh-claude-slider (v2.20.1) — MIT
+
+The canvas slider effects (`QL_SLIDER_FX`) and the composer pet theater (`QL_PET`: pixel
+sprites, audio clips, entity state machines and the stage renderer) are vendored from
+[yicun0316/dsh-claude-slider](https://github.com/yicun0316/dsh-claude-slider) 2.20.1,
+licensed under the MIT License, © yicun0316. Only the drawing/data/simulation layers are
+copied; the tier list, fill geometry, config store and settings UI remain this skin's own.
+
+Per its README, dsh-claude-slider itself credits the following upstream projects:
+RMvdesi/obsidian-prism (GPL-3.0-only), 0DNANCY/agy-claude-style (MIT),
+Nwflower/dsh-claude-style, Microqian2th/dsh-codex-effort-slider,
+mobius/dsh-performance-slider, LLYSH-HANNARI/antigravity-Codex-Claude-effort-slider
+(MIT), claudenoshujin/claude-web, ATtacK030130/antigrative-dashboard (MIT),
+yiheng8023/antigravity-chinese (MIT).
