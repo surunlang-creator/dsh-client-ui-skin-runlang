@@ -1,7 +1,7 @@
 {
   "name": "dsh-client-ui-skin-runlang",
   "description": "Runlang: a courtyard-video skin for the DSH Web UI with smoked-glass panels, a wallpaper panel, a corner music player with repeat/shuffle and drag-to-seek, a background-video sound control, and a mint cat companion.",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
