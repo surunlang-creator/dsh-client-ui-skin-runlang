@@ -184,3 +184,9 @@ yiheng8023/antigravity-chinese (MIT).
 `assets/claude-pet.webp` 是依据用户提供的肖像，由用户的 Codex 会话
 （`~/Documents/Codex/2026-11-25/neng`）生成的桌宠图集，随本仓库分发时同样不在 MIT 代码许可范围内；
 肖像原作权利归其权利人，公开或商用分发前请确认授权。
+
+## ChatGPT 紫璃 图集
+
+`assets/chatgpt-zili.webp` 依据用户提供的银紫龙娘立绘，由用户的 Codex 会话
+（`~/Documents/Codex/2026-11-25/neng/work/claude-dragon`）生成，随本仓库分发时不在 MIT 代码许可范围内；
+角色形象权利归其权利人，公开或商用分发前请确认授权。
