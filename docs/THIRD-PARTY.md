@@ -179,7 +179,8 @@ yiheng8023/antigravity-chinese (MIT).
 作者随公开版提供，按该项目的 ASSET-NOTICE.md：图集**不是** MIT 许可素材，随本仓库分发前请确认授权范围。
 本皮肤只做播放：不做二次修改，也不把它重新声明为 MIT。
 
-## Claude · Helia 形象
+## Claude · Helia 图集
 
-`Claude · Helia` 是依据用户提供的角色肖像（橙发、向日葵、白裙黑蝴蝶结）手绘的点阵桌宠，
-由本项目作者绘制，随本仓库以 MIT 代码一起分发；肖像原作权利归其权利人，用于公开分发前请确认授权。
+`assets/claude-pet.webp` 是依据用户提供的肖像，由用户的 Codex 会话
+（`~/Documents/Codex/2026-11-25/neng`）生成的桌宠图集，随本仓库分发时同样不在 MIT 代码许可范围内；
+肖像原作权利归其权利人，公开或商用分发前请确认授权。
