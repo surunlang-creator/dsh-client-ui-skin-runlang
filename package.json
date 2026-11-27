@@ -1,7 +1,7 @@
 {
   "name": "dsh-client-ui-skin-runlang",
   "description": "Runlang: courtyard-video skin for the DSH Web UI - smoked glass, wallpaper library (uploads, GLSL, Wallpaper Engine), music player, nine-effect reasoning rail with the full tier list, twelve companions including Baili, and an uploadable opening animation.",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
